@@ -1,0 +1,7 @@
+@mixin fullScreenCentered($direction) {
+  height: 95vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: $direction;
+}

@@ -1,19 +1,13 @@
-@mixin flexCenter($direction) {
-  // height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: $direction;
-}
-
-
 .nav-bar {
-  @include flexCenter(row);
-  // background-color: $bestPurple;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: $bestPurple;
+  font-weight: 300;
+  height: 5vh;
   a {
-    margin-right: 2%;
-    &:last-child {
-      margin-right: 0;
-    }
+    color: white;
+    text-decoration: none;
+    padding-right: 3%;
   }
 }

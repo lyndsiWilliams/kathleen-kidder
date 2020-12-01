@@ -1,7 +1,10 @@
 const Home = () => {
-    return (
-        <h1>This is the Home page!</h1>
-    );
+  return (
+    <div className="home">
+      <h1>Kathleen Kidder</h1>
+      <h2>Writer, artist, cat and lizard fanatic</h2>
+    </div>
+  );
 };
 
 export default Home;
