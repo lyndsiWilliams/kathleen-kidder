@@ -4,7 +4,11 @@
     "sources": [
         "styles.scss",
         "_variables.scss",
-        "_navBar.scss"
+        "_navBar.scss",
+        "_home.scss",
+        "_about.scss",
+        "_gallery.scss",
+        "_shortStories.scss"
     ],
     "names": [],
     "file": "styles.css"
