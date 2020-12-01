@@ -5,3 +5,9 @@
   align-items: center;
   flex-direction: $direction;
 }
+
+@mixin flexCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
