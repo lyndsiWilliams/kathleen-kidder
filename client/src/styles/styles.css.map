@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "AESA,AAAA,QAAQ,CAAC;EAPP,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,MAAM;EACvB,WAAW,EAAE,MAAM;EACnB,cAAc,EAKM,GAAG;CAQxB;;AATD,AAGE,QAHM,CAGN,CAAC,CAAC;EACA,YAAY,EAAE,EAAE;CAIjB;;AARH,AAKI,QALI,CAGN,CAAC,AAEE,WAAW,CAAC;EACX,YAAY,EAAE,CAAC;CAChB",
+    "sources": [
+        "styles.scss",
+        "_variables.scss",
+        "_navBar.scss"
+    ],
+    "names": [],
+    "file": "styles.css"
+}

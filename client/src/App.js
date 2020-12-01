@@ -8,6 +8,7 @@ import ShortStories from './components/ShortStories';
 import Gallery from './components/Gallery';
 // Styling
 import './App.css';
+import './styles/styles.css';
 
 function App() {
   return (
