@@ -85,5 +85,23 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  background-image: url("../images/book-pages.jpg");
+}
+
+.short-stories .ss-title-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 45vw;
+  height: 30vh;
+  background-color: rgba(255, 255, 255, 0.8);
+  border: solid rebeccapurple 3px;
+  border-radius: 10px;
 }
 /*# sourceMappingURL=styles.css.map */
