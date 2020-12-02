@@ -5,7 +5,7 @@
   .ss-title-card {
     @include flexCenter();
     flex-direction: column;
-    width: 85vw;
+    width: 55vw;
     padding: 2%;
     background-color: $fadedCard;
     border: solid $kkDarkGreen 3px;
