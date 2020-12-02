@@ -8,7 +8,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: rebeccapurple;
+  background-color: #d90429;
   font-weight: 300;
   height: 5vh;
 }
@@ -85,7 +85,7 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  background-image: url("../images/book-pages.jpg");
+  background-color: #73ba9b;
 }
 
 .short-stories .ss-title-card {
@@ -101,7 +101,7 @@
   width: 45vw;
   height: 30vh;
   background-color: rgba(255, 255, 255, 0.8);
-  border: solid rebeccapurple 3px;
+  border: solid #003e1f 3px;
   border-radius: 10px;
 }
 /*# sourceMappingURL=styles.css.map */

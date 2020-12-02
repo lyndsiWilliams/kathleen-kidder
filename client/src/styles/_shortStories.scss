@@ -1,13 +1,13 @@
 .short-stories {
   @include fullScreenCentered(row);
-  background-image: url('../images/book-pages.jpg');
+  background-color: $kkMint;
 
   .ss-title-card {
     @include flexCenter();
     width: 45vw;
     height: 30vh;
     background-color: $fadedCard;
-    border: solid $bestPurple 3px;
+    border: solid $kkDarkGreen 3px;
     border-radius: 10px;
   }
 }
