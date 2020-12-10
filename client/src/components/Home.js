@@ -14,7 +14,8 @@ const Home = () => {
     <div className="home">
       <h1>Kathleen Kidder</h1>
       <h2>Writer, artist, cat and lizard fanatic</h2>
-      <p>{JSON.stringify(state)}</p>
+      {/* If the state isn't working, give a readable line */}
+      <p>{state !== 'Well, hello there! (sever) ♥' ? 'Well, hello there! (client) ♥' : state}</p>
     </div>
   );
 };
