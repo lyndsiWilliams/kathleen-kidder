@@ -1,5 +1,4 @@
 // Package imports
-import { useEffect } from 'react';
 import { connect } from 'react-redux';
 // Actions
 import { getBlogs } from '../redux/actions';
@@ -7,13 +6,10 @@ import { getBlogs } from '../redux/actions';
 const Blog = props => {
   console.log("PROPS in BLOG: ", props);
 
-  useEffect(() => {
-    props.getBlogs();
-  }, [])
-
   return (
-    <div className="blog">
+    <div className="blog" style={{ flexDirection: "column" }}>
       <h1>This is the Blog page!</h1>
+      <button onClick={() => props.getBlogs()}>Test the API!</button>
     </div>
   );
 };
