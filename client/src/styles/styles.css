@@ -129,6 +129,11 @@
   background-color: #73ba9b;
 }
 
+.blog button:active {
+  -webkit-transform: scale(0.99);
+          transform: scale(0.99);
+}
+
 body {
   font-family: "Noticia Text", serif;
 }
