@@ -2,8 +2,11 @@
   @include fullScreenCentered(row);
   background-color: $kkMint;
 
-  button:active {
-    // Mimics "real button" press
-    transform: scale(.99);
+  button{
+    background-color: $kkDarkGreen;
+    &:active {
+      // Mimics "real button" press
+      transform: scale(.99);
+    }
   }
 }

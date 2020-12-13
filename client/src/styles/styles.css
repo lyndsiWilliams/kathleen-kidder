@@ -129,6 +129,10 @@
   background-color: #73ba9b;
 }
 
+.blog button {
+  background-color: #003e1f;
+}
+
 .blog button:active {
   -webkit-transform: scale(0.99);
           transform: scale(0.99);
